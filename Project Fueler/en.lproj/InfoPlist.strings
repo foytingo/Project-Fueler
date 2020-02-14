@@ -1,0 +1,12 @@
+/* 
+  InfoPlist.strings
+  Project Fueler
+
+  Created by Murat Baykor on 14.02.2020.
+  Copyright © 2020 Murat Baykor. All rights reserved.
+*/
+
+
+"NSCameraUsageDescription" = "asdfasdfsadf";
+
+"NSPhotoLibraryUsageDescription" = "asdfasdfsadf";

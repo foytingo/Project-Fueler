@@ -7,25 +7,76 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46218B6B23F3EBB4004B02D1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46218B6A23F3EBB4004B02D1 /* Constants.swift */; };
+		4624C18723F6A21100C56F5F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4624C18923F6A21100C56F5F /* InfoPlist.strings */; };
+		462AEF1823F564C200438F07 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 462AEF1623F564C200438F07 /* Localizable.strings */; };
+		462AEF1C23F56F5500438F07 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462AEF1B23F56F5500438F07 /* String+Ext.swift */; };
+		4644A17723F400C500696C07 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4644A17623F400C500696C07 /* Date+Ext.swift */; };
+		4644A18323F4239400696C07 /* FLRTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4644A18223F4239400696C07 /* FLRTabBarController.swift */; };
+		4644A18723F431BC00696C07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4644A18623F431BC00696C07 /* LaunchScreen.storyboard */; };
 		4688B33F23EC0FBE00D7738A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4688B33E23EC0FBE00D7738A /* AppDelegate.swift */; };
 		4688B34123EC0FBE00D7738A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4688B34023EC0FBE00D7738A /* SceneDelegate.swift */; };
-		4688B34323EC0FBE00D7738A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4688B34223EC0FBE00D7738A /* ViewController.swift */; };
-		4688B34623EC0FBE00D7738A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4688B34423EC0FBE00D7738A /* Main.storyboard */; };
 		4688B34923EC0FBE00D7738A /* Project_Fueler.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4688B34723EC0FBE00D7738A /* Project_Fueler.xcdatamodeld */; };
 		4688B34B23EC0FC000D7738A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4688B34A23EC0FC000D7738A /* Assets.xcassets */; };
-		4688B34E23EC0FC000D7738A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4688B34C23EC0FC000D7738A /* LaunchScreen.storyboard */; };
+		4688B35723EC102B00D7738A /* FuelPurchasesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4688B35623EC102B00D7738A /* FuelPurchasesVC.swift */; };
+		4688B35923EC104900D7738A /* VehiclesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4688B35823EC104900D7738A /* VehiclesVC.swift */; };
+		4688B35B23EC170600D7738A /* VehicleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4688B35A23EC170600D7738A /* VehicleCell.swift */; };
+		4688B36423EC17AD00D7738A /* FLRVehicleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4688B36323EC17AD00D7738A /* FLRVehicleImageView.swift */; };
+		4688B36623EC18E700D7738A /* FLRLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4688B36523EC18E700D7738A /* FLRLabel.swift */; };
+		4688B36923EC1DF600D7738A /* FLRAddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4688B36823EC1DF600D7738A /* FLRAddButton.swift */; };
+		4688B36B23EC283E00D7738A /* AddVehicleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4688B36A23EC283E00D7738A /* AddVehicleVC.swift */; };
+		4688B36E23EC2A6200D7738A /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4688B36D23EC2A6200D7738A /* CoreDataManager.swift */; };
+		4688B37223EC2AE800D7738A /* FLRErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4688B37123EC2AE800D7738A /* FLRErrors.swift */; };
+		4688B37523EC32EC00D7738A /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4688B37423EC32EC00D7738A /* UIViewController+Ext.swift */; };
+		4688B37723EC332C00D7738A /* FLREmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4688B37623EC332C00D7738A /* FLREmptyStateView.swift */; };
+		4688B37B23EC353B00D7738A /* FLRTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4688B37A23EC353B00D7738A /* FLRTextField.swift */; };
+		4688B37D23EC462800D7738A /* VehicleDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4688B37C23EC462800D7738A /* VehicleDetailVC.swift */; };
+		4688B37F23EC49B400D7738A /* FLRButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4688B37E23EC49B400D7738A /* FLRButton.swift */; };
+		4688B38123EC54E100D7738A /* EditVehicleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4688B38023EC54E100D7738A /* EditVehicleVC.swift */; };
+		4688B38423EC6F3200D7738A /* FLRVehicleSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4688B38323EC6F3200D7738A /* FLRVehicleSelectView.swift */; };
+		46B423B023ED5FA80077A75B /* FuelPurchaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B423AF23ED5FA80077A75B /* FuelPurchaseCell.swift */; };
+		46B423B223ED61F60077A75B /* AddFuelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B423B123ED61F60077A75B /* AddFuelVC.swift */; };
+		46B423B423ED66960077A75B /* VehicleListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B423B323ED66960077A75B /* VehicleListVC.swift */; };
+		46B423B623ED6ABC0077A75B /* FuelPurchaseDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B423B523ED6ABC0077A75B /* FuelPurchaseDetailVC.swift */; };
+		46B423B823ED70350077A75B /* ReceiptVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B423B723ED70350077A75B /* ReceiptVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		46218B6A23F3EBB4004B02D1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4624C18823F6A21100C56F5F /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		462AEF1723F564C200438F07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = "Project Fueler/Base.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		462AEF1923F564D400438F07 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = "Project Fueler/tr.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		462AEF1B23F56F5500438F07 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		4644A17623F400C500696C07 /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
+		4644A18223F4239400696C07 /* FLRTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLRTabBarController.swift; sourceTree = "<group>"; };
+		4644A18623F431BC00696C07 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4688B33B23EC0FBE00D7738A /* Project Fueler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project Fueler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4688B33E23EC0FBE00D7738A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4688B34023EC0FBE00D7738A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4688B34223EC0FBE00D7738A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4688B34523EC0FBE00D7738A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4688B34823EC0FBE00D7738A /* Project_Fueler.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Project_Fueler.xcdatamodel; sourceTree = "<group>"; };
 		4688B34A23EC0FC000D7738A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4688B34D23EC0FC000D7738A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4688B34F23EC0FC000D7738A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4688B35623EC102B00D7738A /* FuelPurchasesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelPurchasesVC.swift; sourceTree = "<group>"; };
+		4688B35823EC104900D7738A /* VehiclesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesVC.swift; sourceTree = "<group>"; };
+		4688B35A23EC170600D7738A /* VehicleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleCell.swift; sourceTree = "<group>"; };
+		4688B36323EC17AD00D7738A /* FLRVehicleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLRVehicleImageView.swift; sourceTree = "<group>"; };
+		4688B36523EC18E700D7738A /* FLRLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLRLabel.swift; sourceTree = "<group>"; };
+		4688B36823EC1DF600D7738A /* FLRAddButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLRAddButton.swift; sourceTree = "<group>"; };
+		4688B36A23EC283E00D7738A /* AddVehicleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddVehicleVC.swift; sourceTree = "<group>"; };
+		4688B36D23EC2A6200D7738A /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		4688B37123EC2AE800D7738A /* FLRErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLRErrors.swift; sourceTree = "<group>"; };
+		4688B37423EC32EC00D7738A /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		4688B37623EC332C00D7738A /* FLREmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLREmptyStateView.swift; sourceTree = "<group>"; };
+		4688B37A23EC353B00D7738A /* FLRTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLRTextField.swift; sourceTree = "<group>"; };
+		4688B37C23EC462800D7738A /* VehicleDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleDetailVC.swift; sourceTree = "<group>"; };
+		4688B37E23EC49B400D7738A /* FLRButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLRButton.swift; sourceTree = "<group>"; };
+		4688B38023EC54E100D7738A /* EditVehicleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditVehicleVC.swift; sourceTree = "<group>"; };
+		4688B38323EC6F3200D7738A /* FLRVehicleSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLRVehicleSelectView.swift; sourceTree = "<group>"; };
+		46B423AF23ED5FA80077A75B /* FuelPurchaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelPurchaseCell.swift; sourceTree = "<group>"; };
+		46B423B123ED61F60077A75B /* AddFuelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFuelVC.swift; sourceTree = "<group>"; };
+		46B423B323ED66960077A75B /* VehicleListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleListVC.swift; sourceTree = "<group>"; };
+		46B423B523ED6ABC0077A75B /* FuelPurchaseDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelPurchaseDetailVC.swift; sourceTree = "<group>"; };
+		46B423B723ED70350077A75B /* ReceiptVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,9 +90,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4644A17A23F404CB00696C07 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				4688B33E23EC0FBE00D7738A /* AppDelegate.swift */,
+				4688B34023EC0FBE00D7738A /* SceneDelegate.swift */,
+				4644A18623F431BC00696C07 /* LaunchScreen.storyboard */,
+				4688B34A23EC0FC000D7738A /* Assets.xcassets */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		4644A18123F4236200696C07 /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				4644A18223F4239400696C07 /* FLRTabBarController.swift */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
 		4688B33223EC0FBE00D7738A = {
 			isa = PBXGroup;
 			children = (
+				462AEF1623F564C200438F07 /* Localizable.strings */,
 				4688B33D23EC0FBE00D7738A /* Project Fueler */,
 				4688B33C23EC0FBE00D7738A /* Products */,
 			);
@@ -58,16 +129,133 @@
 		4688B33D23EC0FBE00D7738A /* Project Fueler */ = {
 			isa = PBXGroup;
 			children = (
-				4688B33E23EC0FBE00D7738A /* AppDelegate.swift */,
-				4688B34023EC0FBE00D7738A /* SceneDelegate.swift */,
-				4688B34223EC0FBE00D7738A /* ViewController.swift */,
-				4688B34423EC0FBE00D7738A /* Main.storyboard */,
-				4688B34A23EC0FC000D7738A /* Assets.xcassets */,
-				4688B34C23EC0FC000D7738A /* LaunchScreen.storyboard */,
+				4688B37323EC32D900D7738A /* Extensions */,
+				4688B36F23EC2AD600D7738A /* Utilites */,
+				4688B36C23EC2A5300D7738A /* Managers */,
+				4688B38223EC6EF500D7738A /* UI Elements */,
+				4688B36723EC1A2E00D7738A /* Models */,
+				4688B35523EC100F00D7738A /* Screens */,
+				4644A17A23F404CB00696C07 /* Support */,
 				4688B34F23EC0FC000D7738A /* Info.plist */,
-				4688B34723EC0FBE00D7738A /* Project_Fueler.xcdatamodeld */,
+				4624C18923F6A21100C56F5F /* InfoPlist.strings */,
 			);
 			path = "Project Fueler";
+			sourceTree = "<group>";
+		};
+		4688B35523EC100F00D7738A /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				4688B35623EC102B00D7738A /* FuelPurchasesVC.swift */,
+				4688B35823EC104900D7738A /* VehiclesVC.swift */,
+				4688B36A23EC283E00D7738A /* AddVehicleVC.swift */,
+				4688B37C23EC462800D7738A /* VehicleDetailVC.swift */,
+				4688B38023EC54E100D7738A /* EditVehicleVC.swift */,
+				46B423B123ED61F60077A75B /* AddFuelVC.swift */,
+				46B423B323ED66960077A75B /* VehicleListVC.swift */,
+				46B423B523ED6ABC0077A75B /* FuelPurchaseDetailVC.swift */,
+				46B423B723ED70350077A75B /* ReceiptVC.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		4688B35C23EC170B00D7738A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				4688B35A23EC170600D7738A /* VehicleCell.swift */,
+				46B423AF23ED5FA80077A75B /* FuelPurchaseCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		4688B35D23EC175800D7738A /* ImageViews */ = {
+			isa = PBXGroup;
+			children = (
+				4688B36323EC17AD00D7738A /* FLRVehicleImageView.swift */,
+			);
+			path = ImageViews;
+			sourceTree = "<group>";
+		};
+		4688B35E23EC175F00D7738A /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				4688B36523EC18E700D7738A /* FLRLabel.swift */,
+			);
+			path = Labels;
+			sourceTree = "<group>";
+		};
+		4688B35F23EC176C00D7738A /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				4688B37A23EC353B00D7738A /* FLRTextField.swift */,
+			);
+			path = TextFields;
+			sourceTree = "<group>";
+		};
+		4688B36023EC177800D7738A /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				4688B36823EC1DF600D7738A /* FLRAddButton.swift */,
+				4688B37E23EC49B400D7738A /* FLRButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		4688B36123EC178000D7738A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4688B37623EC332C00D7738A /* FLREmptyStateView.swift */,
+				4688B38323EC6F3200D7738A /* FLRVehicleSelectView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4688B36723EC1A2E00D7738A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4688B34723EC0FBE00D7738A /* Project_Fueler.xcdatamodeld */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4688B36C23EC2A5300D7738A /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				4688B36D23EC2A6200D7738A /* CoreDataManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		4688B36F23EC2AD600D7738A /* Utilites */ = {
+			isa = PBXGroup;
+			children = (
+				4688B37123EC2AE800D7738A /* FLRErrors.swift */,
+				46218B6A23F3EBB4004B02D1 /* Constants.swift */,
+			);
+			path = Utilites;
+			sourceTree = "<group>";
+		};
+		4688B37323EC32D900D7738A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4688B37423EC32EC00D7738A /* UIViewController+Ext.swift */,
+				4644A17623F400C500696C07 /* Date+Ext.swift */,
+				462AEF1B23F56F5500438F07 /* String+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4688B38223EC6EF500D7738A /* UI Elements */ = {
+			isa = PBXGroup;
+			children = (
+				4644A18123F4236200696C07 /* TabBarController */,
+				4688B36123EC178000D7738A /* Views */,
+				4688B36023EC177800D7738A /* Buttons */,
+				4688B35F23EC176C00D7738A /* TextFields */,
+				4688B35E23EC175F00D7738A /* Labels */,
+				4688B35D23EC175800D7738A /* ImageViews */,
+				4688B35C23EC170B00D7738A /* Cells */,
+			);
+			path = "UI Elements";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +300,7 @@
 			knownRegions = (
 				en,
 				Base,
+				tr,
 			);
 			mainGroup = 4688B33223EC0FBE00D7738A;
 			productRefGroup = 4688B33C23EC0FBE00D7738A /* Products */;
@@ -128,9 +317,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4688B34E23EC0FC000D7738A /* LaunchScreen.storyboard in Resources */,
 				4688B34B23EC0FC000D7738A /* Assets.xcassets in Resources */,
-				4688B34623EC0FBE00D7738A /* Main.storyboard in Resources */,
+				4624C18723F6A21100C56F5F /* InfoPlist.strings in Resources */,
+				462AEF1823F564C200438F07 /* Localizable.strings in Resources */,
+				4644A18723F431BC00696C07 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,30 +331,55 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46218B6B23F3EBB4004B02D1 /* Constants.swift in Sources */,
+				4688B36B23EC283E00D7738A /* AddVehicleVC.swift in Sources */,
+				46B423B423ED66960077A75B /* VehicleListVC.swift in Sources */,
+				4688B36923EC1DF600D7738A /* FLRAddButton.swift in Sources */,
+				4688B37523EC32EC00D7738A /* UIViewController+Ext.swift in Sources */,
 				4688B34923EC0FBE00D7738A /* Project_Fueler.xcdatamodeld in Sources */,
-				4688B34323EC0FBE00D7738A /* ViewController.swift in Sources */,
+				46B423B023ED5FA80077A75B /* FuelPurchaseCell.swift in Sources */,
+				4688B36623EC18E700D7738A /* FLRLabel.swift in Sources */,
+				46B423B823ED70350077A75B /* ReceiptVC.swift in Sources */,
+				46B423B623ED6ABC0077A75B /* FuelPurchaseDetailVC.swift in Sources */,
+				4688B35B23EC170600D7738A /* VehicleCell.swift in Sources */,
+				4688B36E23EC2A6200D7738A /* CoreDataManager.swift in Sources */,
+				4688B37F23EC49B400D7738A /* FLRButton.swift in Sources */,
+				46B423B223ED61F60077A75B /* AddFuelVC.swift in Sources */,
+				4688B37223EC2AE800D7738A /* FLRErrors.swift in Sources */,
+				4644A17723F400C500696C07 /* Date+Ext.swift in Sources */,
+				4644A18323F4239400696C07 /* FLRTabBarController.swift in Sources */,
 				4688B33F23EC0FBE00D7738A /* AppDelegate.swift in Sources */,
+				4688B37B23EC353B00D7738A /* FLRTextField.swift in Sources */,
+				4688B35723EC102B00D7738A /* FuelPurchasesVC.swift in Sources */,
 				4688B34123EC0FBE00D7738A /* SceneDelegate.swift in Sources */,
+				4688B38423EC6F3200D7738A /* FLRVehicleSelectView.swift in Sources */,
+				462AEF1C23F56F5500438F07 /* String+Ext.swift in Sources */,
+				4688B37723EC332C00D7738A /* FLREmptyStateView.swift in Sources */,
+				4688B37D23EC462800D7738A /* VehicleDetailVC.swift in Sources */,
+				4688B38123EC54E100D7738A /* EditVehicleVC.swift in Sources */,
+				4688B36423EC17AD00D7738A /* FLRVehicleImageView.swift in Sources */,
+				4688B35923EC104900D7738A /* VehiclesVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4688B34423EC0FBE00D7738A /* Main.storyboard */ = {
+		4624C18923F6A21100C56F5F /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4688B34523EC0FBE00D7738A /* Base */,
+				4624C18823F6A21100C56F5F /* tr */,
 			);
-			name = Main.storyboard;
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		4688B34C23EC0FC000D7738A /* LaunchScreen.storyboard */ = {
+		462AEF1623F564C200438F07 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4688B34D23EC0FC000D7738A /* Base */,
+				462AEF1723F564C200438F07 /* Base */,
+				462AEF1923F564D400438F07 /* tr */,
 			);
-			name = LaunchScreen.storyboard;
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -296,7 +511,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.foytingo.Project-Fueler";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Project Fueler";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -314,7 +529,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.foytingo.Project-Fueler";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Project Fueler";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
